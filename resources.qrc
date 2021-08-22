@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/vacation/Vacation.qml</file>
+        <file>img/dclimate.png</file>
+        <file>qml/Pop.qml</file>
+        <file>qml/Selection.qml</file>
+        <file>qml/vacation/Choice.qml</file>
+    </qresource>
+</RCC>
