@@ -6,5 +6,6 @@
         <file>qml/Pop.qml</file>
         <file>qml/Selection.qml</file>
         <file>qml/vacation/Choice.qml</file>
+        <file>qml/vacation/Continent.qml</file>
     </qresource>
 </RCC>

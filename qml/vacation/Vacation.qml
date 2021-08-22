@@ -1,4 +1,5 @@
-import QtQuick 2.0
+import QtQuick 2.13
+import QtGraphicalEffects 1.12
 
 Item {
     id: root
@@ -54,6 +55,58 @@ Item {
                 mosaic.selected = false
                 map.selected = true
             }
+        }
+    }
+
+    ///
+
+
+    Row {
+        id: row
+        spacing: 30
+        height: 40
+        y: map.y + map.height * 3
+        anchors.horizontalCenter: parent.horizontalCenter
+
+        Continent {
+            id: oceania
+            info: "Oceania"
+            total: "15"
+            selected: true
+            MouseArea{
+                anchors.fill: parent
+                hoverEnabled: true
+                onEntered: oceania.color = "#10faa81a"
+                onExited: oceania.color = "#292c3b"
+                onClicked: {
+                    oceania.selected = true
+                }
+            }
+        }
+        Continent {
+            id: africa
+            info: "Africa"
+            total: "11"
+        }
+        Continent {
+            id: nord_america
+            info: "Nord America"
+            total: "275"
+        }
+        Continent {
+            id: south_america
+            info: "South America"
+            total: "9"
+        }
+        Continent {
+            id: europe
+            info: "Eurpe"
+            total: "185"
+        }
+        Continent {
+            id: asia
+            info: "Asia"
+            total: "52"
         }
     }
 }
