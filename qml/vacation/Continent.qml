@@ -3,8 +3,8 @@ import QtQuick 2.0
 Rectangle {
     width: 160
     height: 40
-    color: "#292c3b"
-    border.color: selected ? "#80faa81a" : "transparent"
+    color: selected ? "#10faa81a": "#80292c3b"
+    border.color: "#30faa81a"
     property string info: "Oceania"
     property string total: "15"
     property bool selected: false

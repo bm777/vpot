@@ -4,8 +4,9 @@ import QtGraphicalEffects 1.12
 import "vacation"
 
 Window {
+    id: root
     title: qsTr("vpot")
-    width: 1400
+    width: 1500
     height: 800
     visible: true
 
