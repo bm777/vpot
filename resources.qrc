@@ -8,5 +8,7 @@
         <file>qml/vacation/Choice.qml</file>
         <file>qml/vacation/Continent.qml</file>
         <file>qml/vacation/Earth.qml</file>
+        <file>qml/vacation/Marker.qml</file>
+        <file>qml/vacation/Loading.qml</file>
     </qresource>
 </RCC>
